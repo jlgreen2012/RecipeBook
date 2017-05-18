@@ -8,11 +8,10 @@ namespace RecipeBook.Entities
 {
     public class Meal
     {
+        public int Id { get; set; }
         public ICollection<Recipe> Recipes { get; set; }
         public HealthLevel HealthLevel { get; set; }
         public DateTime? DateAdded { get; set; }
-        public DateTime? DateLastCooked { get; set; }
-
-        public bool WasCreated { get; set; } // created by hand versus suggested..?
+        public DateTime? DateLastCooked { get; set; }        
     }
 }
