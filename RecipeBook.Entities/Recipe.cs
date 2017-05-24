@@ -33,6 +33,11 @@ namespace RecipeBook.Entities
 
         public DifficultyLevel DifficultyLevel { get; set; }
 
+        [Url]
+        public string OriginalRecipeUrl { get; set; }
+
+        public string OriginalRecipeNotes { get; set; }
+
         //[MinLength(1, ErrorMessage = "At least one ingredient set is required.")]
         public virtual ICollection<IngredientSet> IngredientSets { get; set; }
 
