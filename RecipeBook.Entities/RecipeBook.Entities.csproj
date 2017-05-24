@@ -71,6 +71,7 @@
     <Compile Include="DishType.cs" />
     <Compile Include="HealthLevel.cs" />
     <Compile Include="Ingredient.cs" />
+    <Compile Include="IngredientSet.cs" />
     <Compile Include="Initializer.cs" />
     <Compile Include="Meal.cs" />
     <Compile Include="MealType.cs" />

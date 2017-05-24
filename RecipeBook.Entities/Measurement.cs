@@ -25,12 +25,18 @@ namespace RecipeBook.Entities
         TSP,
 
         [Display(Name ="quarts")]
-        QUARTZ,
+        QUARTS,
 
         [Display(Name ="pints")]
         PINTS,
 
         [Display(Name ="grams")]
-        GRAMS
+        GRAMS,
+
+        [Display(Name = "lb")]
+        LBS,
+
+        [Display(Name = "")]
+        ITEM
     }
 }
